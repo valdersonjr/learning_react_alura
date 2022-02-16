@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 
 
-export default class CardNotas extends Component{
+class CardNotas extends Component{
     render(){
         return(
             <section>
@@ -14,3 +14,5 @@ export default class CardNotas extends Component{
         );
     }
 }
+
+export default CardNotas;
